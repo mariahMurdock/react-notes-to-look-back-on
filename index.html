@@ -39,9 +39,25 @@
     </div>
     <br>
     <div class="creatElement">
-      <h1>React Create Element Syntax</h1>
+      <h1>React Create Element Syntax and Type</h1>
       <p>
         React.createElement( /* type */, /* props */, /* content */ );
+      </p>
+      <p>
+        <strong><em>Let's break down what each item can be:</em></strong>
+      <ul>
+        <li><strong>type – either a string or a React Component</strong></li>
+
+        This can be a string of any existing HTML element (e.g. 'p', 'span', or 'header') or you could pass a React component (we'll be creating components with JSX, in just a moment).
+
+        <li> <strong>props – either null or an object</strong></li>
+
+        This is an object of HTML attributes and custom data about the element.
+
+        <li> <strong>content – null, a string, a React Element, or a React Component</strong></li>
+
+        Anything that you pass here will be the content of the rendered element. This can include plain text, JavaScript code, other React elements, etc.
+      </ul>
       </p>
     </div>
     <br>
