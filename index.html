@@ -34,6 +34,11 @@
             ReactDOM.render(<p>Hello</p>, document.getElementById('root'));
           </div>
         </dd>
+        <br>
+        <dt><strong><em>extends</strong></em></dt>
+        <dd>class childClass extends parentClass</dd>
+        <dt><strong><em>Reference Source : https://www.w3schools.com/jsref/jsref_class_extends.asp</em></strong></dt>
+        <dd>
       </dl>
 
     </div>
@@ -62,6 +67,31 @@
     </div>
     <br>
     <br>
+    <br>
+
+    <div class="declaring-components-in-react">
+      <h1>Declaring Components in React</h1>
+      <br>
+      <ol>
+        <p><em>In the previous video, we defined the ContactList component like so:</em>
+
+        </p>
+        <li><strong>class ContactList extends React.Component {
+            // ...
+            }</strong></li><br>
+        <p><em>In other words, we are defining a component that's really just a JavaScript class that inherits from React.Component.
+
+            In real-world use (and throughout this course), you may also see declarations like:</em></p>
+        <br>
+        <li><strong>class ContactList extends Component {
+            // ...
+            }</strong></li><br>
+        <li><strong>import React, { Component } from 'react';</strong></li>
+        <p><em>Both ways are functionally the same, but be sure your module imports match accordingly! That is, if you choose to declare components like the example directly above, your import from React will now look like:</em></p><br>
+      </ol>
+
+    </div>
+
     <div id="compositionLinks">
 
       <ol>
